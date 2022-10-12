@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
+import { GlobalUtil } from 'src/shared/global.utils';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Calculator';
+
+  display = [
+    ["AC +/_ % ÷"],
+    ["7 8 9 ×"],
+    ["4 5 6 -"],
+    ["1 2 3 +"],
+    [" 0 . ="]
+  ]
+
+  @HostListener('document:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    GlobalUtil.shared.keyed(event.key)
+  }
+
 }

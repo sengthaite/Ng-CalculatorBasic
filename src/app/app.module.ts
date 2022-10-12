@@ -2,10 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { NumberComponent } from './number/number.component';
+import { DisplayComponent } from './display/display.component';
+import { RowComponent } from './row/row.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumberComponent,
+    DisplayComponent,
+    RowComponent
   ],
   imports: [
     BrowserModule
