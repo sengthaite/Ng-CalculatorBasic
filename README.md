@@ -15,6 +15,11 @@ cd Ng-CalculatorBasic
 npm install
 ng serve
 ```
+> For Mac OSX
+
+```sh
+open "https://localhost:4200"
+```
 
 ## Development server
 
