@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
+## Goal
+
+As beginner project, I decide to compose a basic calculator inspire by Mac OSX calculator. What includes:
+1. Libraries: big-number.js, angular libraries
+2. Test: GlobalUtil input test
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
