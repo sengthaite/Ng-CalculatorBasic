@@ -8,6 +8,14 @@ As beginner project, I decide to compose a basic calculator inspire by Mac OSX c
 1. Libraries: big-number.js, angular libraries
 2. Test: GlobalUtil input test
 
+## How
+```sh
+git clone https://github.com/sengthaite/Ng-CalculatorBasic.git
+cd Ng-CalculatorBasic
+npm install
+ng serve
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
